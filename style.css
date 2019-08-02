@@ -175,8 +175,25 @@ i, h3{
 
 #footer-top{
     justify-content: space-between;
+    padding: 35px 0 20px 15px;
 }
 
+#footer-top h2{
+    color: #fff;
+    margin-top: 0;
+}
+#footer-top a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    display: block;
+}
+#footer-bottom{
+    background: #2da89b;
+    text-align: center;
+    padding: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
 @media(max-width: 1025px){
     #header-top{
         padding: 15px;
@@ -232,5 +249,11 @@ i, h3{
     }
     .product .wrap{
         margin: 10px;
+    }
+    #footer-top .nav{
+        margin: 15px;
+    }
+    #footer-top{
+        justify-content: center;
     }
 }
